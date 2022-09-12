@@ -1,10 +1,8 @@
 import requests
-print(requests.__version__)
 
-import requests
+requests.get('http://google.com/')
 
+print("import requests"+"\n\n"+
 
-out = requests.get('https://github.com/jackie174/lab1/blob/master/lab1.py')
+"requests.get('http://google.com/')")
 
-with open('filename.txt', 'wb') as r:
-    r.write(out.content)
